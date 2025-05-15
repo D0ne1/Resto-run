@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Фоновые SVG-иконки */
+.bg-icon {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.75;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Мелкие размеры и более редкое расположение */
+.bg-icon.icon-ruler1 { top: 8%; left: 7%; width: 65px; transform: rotate(-12deg);}
+.bg-icon.icon-ruler2 { bottom: 32%; right: 13%; width: 50px; transform: rotate(14deg);}
+.bg-icon.icon-ruler3 { top: 44%; left: 4%; width: 54px; transform: rotate(-22deg);}
+.bg-icon.icon-ruler4 { bottom: 12%; left: 22%; width: 52px; transform: rotate(8deg);}
+.bg-icon.icon-ruler5 { top: 14%; right: 32%; width: 60px; transform: rotate(-7deg);}
+
+.bg-icon.icon-bulb1 { top: 21%; right: 19%; width: 43px; transform: rotate(-11deg);}
+.bg-icon.icon-bulb2 { bottom: 14%; left: 29%; width: 36px; transform: rotate(21deg);}
+.bg-icon.icon-bulb3 { top: 75%; right: 7%; width: 45px; transform: rotate(-18deg);}
+.bg-icon.icon-bulb4 { bottom: 23%; left: 12%; width: 38px; transform: rotate(-6deg);}
+
+.bg-icon.icon-graph1 { top: 66%; left: 62%; width: 55px; transform: rotate(-8deg);}
+.bg-icon.icon-graph2 { top: 8%; right: 27%; width: 40px; transform: rotate(16deg);}
+.bg-icon.icon-graph3 { top: 81%; right: 22%; width: 50px; transform: rotate(-15deg);}
+.bg-icon.icon-graph4 { bottom: 35%; left: 61%; width: 67px; transform: rotate(7deg);}
+.bg-icon.icon-graph5 { top: 26%; left: 62%; width: 61px; transform: rotate(-3deg);}
+.bg-icon.icon-graph6 { bottom: 13%; right: 17%; width: 44px; transform: rotate(11deg);}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100px;
+    height: auto;
+    z-index: 2;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-section h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.form-section p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-section input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-section button:hover {
+    background-color: darkgray;
+}
+
+.logo-section {
+    text-align: center;
+    color: #43DF00;
+}
+
+.logo-section h1 {
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-section span {
+    font-size: 24px;
+    color: #000;
+}
