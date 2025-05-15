@@ -20,18 +20,15 @@ body {
     user-select: none;
 }
 
-/* Мелкие размеры и более редкое расположение */
 .bg-icon.icon-ruler1 { top: 8%; left: 7%; width: 65px; transform: rotate(-12deg);}
 .bg-icon.icon-ruler2 { bottom: 32%; right: 13%; width: 50px; transform: rotate(14deg);}
 .bg-icon.icon-ruler3 { top: 44%; left: 4%; width: 54px; transform: rotate(-22deg);}
 .bg-icon.icon-ruler4 { bottom: 12%; left: 22%; width: 52px; transform: rotate(8deg);}
 .bg-icon.icon-ruler5 { top: 14%; right: 32%; width: 60px; transform: rotate(-7deg);}
-
 .bg-icon.icon-bulb1 { top: 21%; right: 19%; width: 43px; transform: rotate(-11deg);}
 .bg-icon.icon-bulb2 { bottom: 14%; left: 29%; width: 36px; transform: rotate(21deg);}
 .bg-icon.icon-bulb3 { top: 75%; right: 7%; width: 45px; transform: rotate(-18deg);}
 .bg-icon.icon-bulb4 { bottom: 23%; left: 12%; width: 38px; transform: rotate(-6deg);}
-
 .bg-icon.icon-graph1 { top: 66%; left: 62%; width: 55px; transform: rotate(-8deg);}
 .bg-icon.icon-graph2 { top: 8%; right: 27%; width: 40px; transform: rotate(16deg);}
 .bg-icon.icon-graph3 { top: 81%; right: 22%; width: 50px; transform: rotate(-15deg);}
@@ -124,4 +121,22 @@ body {
 .logo-section span {
     font-size: 24px;
     color: #000;
+}
+
+/* Стилизация ссылки как кнопки */
+.btn-login {
+    display: inline-block;
+    padding: 3px 3px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-login:hover {
+    background: darkgray;
+    color: white;
 }
